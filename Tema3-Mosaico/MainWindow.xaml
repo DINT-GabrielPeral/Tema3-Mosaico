@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_Mosaico"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" MinHeight="500" MinWidth="500" Icon="recursos/128.ico">
+    <DockPanel LastChildFill="True">
+        <TextBlock Background="BlueViolet" DockPanel.Dock="Left" Width="100" ></TextBlock>
+        <TextBlock Background="Green" DockPanel.Dock="Bottom" Height="100"></TextBlock>
+        <TextBlock Background="BlueViolet" DockPanel.Dock="top" Height="100"></TextBlock>
+        <TextBlock Background="Green" DockPanel.Dock="Right" Width="100"></TextBlock>
+        <TextBlock Background="Yellow" DockPanel.Dock="left" Width="100"></TextBlock>
+        <TextBlock Background="Yellow" DockPanel.Dock="Bottom" Height="100"></TextBlock>
+        <TextBlock Background="DeepPink" DockPanel.Dock="Top" Height="100"></TextBlock>
+        <TextBlock Background="DeepPink" DockPanel.Dock="Right" Width="100"></TextBlock>
+        <TextBlock Background="Black" DockPanel.Dock="Left"></TextBlock>
+
         
-    </Grid>
+    </DockPanel>
 </Window>
